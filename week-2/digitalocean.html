@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
+     <style type="text/css">
+        body {
+            font-family: 'Varela Round', sans-serif;
+            margin-top: 130px;
+            line-height: 45px;
+            color: #666666;
+        }
+        strong {
+            display: block;
+        }
+        h1, h2 {
+            margin-bottom: 40px;
+        }
+
+        button {
+            width: 100%;
+        }
+
+        .form-control, .btn {
+            height: 45px;
+        }
+        .animation {
+                height: 440px;
+                overflow: hidden;
+                position: relative;
+                background-image: url("https://www.digitalocean.com/assets/images/Create-Droplet-V14-7d6a3b30.gif");
+                background-position: top center;
+                background-size: cover;
+        }
+        li {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            background: black;
+            border-radius: 5px;
+        }
+
+        .red-ci {
+            background: #BB0000;
+        }
+        .yellow-ci {
+            background: #94941F;
+        }
+        .green-ci {
+            background: #307B30;
+        }
+
+        .right {
+            border: 1px solid #EEE;
+            padding: 0;
+        }
+
+        .bar {
+            border-bottom: 1px solid #EEE;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            margin-left: 15px;
+        }
+    </style>
+    <title>Digital Ocean Homepage</title>
+</head>
+<body class="container">
+    <div class="row">
+        <div class="col-md-5 left">
+            <h1>
+                <strong>DigitalOcean</strong>
+                Simple Cloud Hosting, Built for Developers.
+            </h1>
+            <h2>
+                Deploy an SSD cloud server in 55 seconds.
+            </h2>
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <button type="submit" class="btn btn-success">Create Account</button>
+            </form>
+        </div>
+        <div class="col-md-5 col-sm-offset-1 right">
+            <div class="bar">
+                <ul>
+                    <li class="red-ci"></li>
+                    <li class="yellow-ci"></li>
+                    <li class="green-ci"></li>
+                </ul>
+            </div>
+            <div class="animation"></div>
+        </div>
+    </div>
+</body>
+</html>
